@@ -1,7 +1,7 @@
 /* space at the top */
 body { 
     background-color: #191A1d;
-    margin: 65px 0px 0px 0px;
+    margin: 0px;
     
 }
 /* nav bar */
@@ -18,6 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    margin: 0px 0px -20px 0px;
     
 }
 
@@ -25,7 +26,14 @@ body {
 .navigation-wrapper > .left-column {
     display: flex;
     align-items: center;
+    margin: none;
 }
+
+    /* image */
+    .navigation-wrapper > .left-column > .codepen-logo img {
+       width: 135px;
+       height: 25px; 
+    }
 
 /*center-column */
 .navigation-wrapper > .center-column {
@@ -58,10 +66,6 @@ body {
 
 
     /* icons */
-    .navigation-wrapper > .left-column > .icon {
-        color:white;
-        font-size: 1em;
-    }
 
     .navigation-wrapper > .right-column > .btn-wrapper > .btn > .icon {
         color: #47cf73;
@@ -99,6 +103,42 @@ body {
     font-size: 14px;
 }
 
-/* images */
+/*Center-page*/
+.center-page {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
 
+.center-page > .text {
+    margin: 0px 0px 0px 40px;
+}
 
+.center-page > .text > .headline > h1 {
+    font-weight: 90;
+    font-size: 30px;
+    margin: 0px 0px;
+}
+
+.center-page > .text > .under-headline-text {
+    font-size: 18px;
+    color: #B3B3B3;
+}
+
+.center-page {
+    height: 377px;
+    background-color: #36383f;
+    box-shadow: inset -210px -143px 87px -13px rgba(25,26,29,1);
+}
+
+/* codepenfor */
+
+.codepenfor {
+    height: 65px;
+    background-color: white;
+}
+
+/* spacers */
+.spacer40 {
+    height: 40px;
+    width: 100%;
+}
