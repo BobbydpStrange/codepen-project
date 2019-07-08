@@ -46,8 +46,10 @@ body {
 }
 
 .center-gradient > .right-column {
-    justify-content: right;
-    width: 587.672px;
+    justify-content: left;
+    width: 887.672px;
+    margin: none;
+    padding: none;
 }
 
 .center-gradient > .center-page > .left-column> .text > .center-btns {
@@ -66,8 +68,9 @@ body {
 
     /* image-right */
 .center-gradient > .right-column > .image-right > .image img {
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 650px;
+    min-width: 100%;
     margin: none;
     padding: none;
 }
