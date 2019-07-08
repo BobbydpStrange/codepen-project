@@ -4,164 +4,97 @@ body {
     margin: 0px;
     
 }
-/* nav bar */
-.navigation-wrapper > .left-column {
-    color:white;
-    
-}
-
-.navigation-wrapper {
-    height: 65px;
-    background-color: black;
-    /* flexbox container */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    margin: 0px 0px -20px 0px;
-    
-}
-
-/* left-column */
-.navigation-wrapper > .left-column {
-    display: flex;
-    align-items: center;
-    margin: none;
-}
-
-    /* image */
-    .navigation-wrapper > .left-column > .codepen-logo img {
-       width: 135px;
-       height: 25px; 
-    }
-
-/*center-column */
-.navigation-wrapper > .center-column {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    width: 325px;
-    margin: 0px;
-}
-
-.navigation-wrapper > .center-column > .text {
-    display: grid;
-    justify-content: left;
-    grid-gap: 10px;
-    margin: 0px;
-}
-
-.links-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* right-column buttons */
-.right-column > .btn-wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-}
 
 
-    /* icons */
-
-    .navigation-wrapper > .right-column > .btn-wrapper > .btn > .icon {
-        color: #47cf73;
-    }
-
-    .navigation-wrapper > .right-column > .btn-wrapper > .icon {
-        color: #7B7E8C;
-    }
 
 /* Buttons */
-.center-page > .center-btns > .green-btn {
+.center-page > .left-column > .center-btns > .green-btn {
     padding: 12px 15px;
     font-size: 22px;
     color: black;
     background-color: #47cf73;
     border: none;
+    margin: 0px 10px 0px 0px;
 }
 
-.center-page> .center-btns > .black-btn {
+.center-page> .left-column > .center-btns > .black-btn {
     padding: 12px 15px;
     font-size: 22px;
     color: white;
     background-color: black;
     border: none;
-}
-
-
-/* Fonts */
-.navigation-wrapper > .left-column {
-    font-family: 'Martel Sans', sans-serif;
-    font-size: 24px;
-    letter-spacing: 3px;
-}
-
-.navigation-wrapper > .center-column {
-    font-family: 'Martel Sans', sans-serif;
-}
-
-.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
-    color: white;
-    font-size: 
-}
-
-.navigation-wrapper > .center-column > .links-wrapper > .spark-link > .nav-link a {
-    color: #7B7E8C;
-}
-
-.navigation-wrapper > .center-column > .text {
-    color: #f4e17f;
-    font-size: 14px;
+    margin: 0px 10px 0px 0px;
 }
 
 /*Center-page*/
-.center-page {
-    font-family: 'Lato', sans-serif;
-    color: #a6a6a6;
-}
 
-.center-page > .text {
+.center-page > .left-column> .text > .center-btns {
     margin: 0px 0px 0px 40px;
 }
+ 
 
-.center-page > .text > .headline > h1 {
-    font-weight: 90;
-    font-size: 30px;
-    margin: 0px 0px;
+/* testing to put center items next to eachother */
+center-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.center-page > .text > .headline >h1 >strong {
-    color: white;
+center-page > right-column
+center-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
 }
 
-.center-page > .text > .under-headline-text {
-    font-size: 25px;
-    color: #a6a6a6;
-}
+.center-page > right-column
 
-.center-page > .center-btns {
-    margin: 0px 0px 0px 40px;
-}
 
 .center-page {
     height: 377px;
+    width:100%;
     background-image: -webkit-radial-gradient(left top, ellipse farthest-side, #36383f 30%, #000000 140%);
 
 }
+
+
+
+    /* image-right */
+.right-column > .image-right > .image img {
+    height: 500px;
+    width: auto;
+    margin: none;
+    padding: none;
+}
+
+    /* box */
+
+
 
 /* codepenfor */
 
 .codepenfor {
     height: 65px;
     background-color: white;
+    margin: 0px 0px;
+    padding: none;
 }
 
-/* spacers */
-.spacer40 {
-    height: 40px;
-    width: 100%;
+.codepenfor > p {
+margin: none;
+padding: none;
 }
+
+.codepenfor > .codepenforbtns > .btn {
+    height: 27px;
+    width: 165px;
+    font-size: 15px;
+    margin: none;
+    color: white;
+    background-color: #36383f;
+    padding: 6.500px 13px;
+    border: 1px;
+    border-color: #676767;
+}
+

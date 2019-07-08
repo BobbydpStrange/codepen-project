@@ -1,0 +1,56 @@
+/* Fonts */
+.navigation-wrapper > .left-column {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.navigation-wrapper > .center-column {
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+    color: white;
+    font-size: 15px;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .spark-link > .nav-link a {
+    color: #7B7E8C;
+}
+
+.navigation-wrapper > .center-column > .text {
+    color: #f4e17f;
+    font-size: 14px;
+}
+
+
+/* center */
+
+.center-page {
+    font-family: 'Lato', sans-serif;
+    color: #a6a6a6;
+}
+
+.center-page > .left-column > .text {
+    margin: 0px 0px 0px 40px;
+}
+
+.center-page > .left-column> .text > .headline > h1 {
+    font-weight: 90;
+    font-size: 30px;
+    margin: 0px 0px;
+}
+
+.center-page > .left-column> .text > .headline >h1 >strong {
+    color: white;
+}
+
+.center-page > .left-column> .text > .under-headline-text {
+    font-size: 25px;
+    color: #a6a6a6;
+}
+
+.right-column > .text-projects > p {
+    color: white;
+    font-size: 12px;
+}
