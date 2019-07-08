@@ -15,42 +15,45 @@
 }
 
 .navigation-wrapper > .center-column > .links-wrapper > .spark-link > .nav-link a {
-    color: #7B7E8C;
+    color: #a6a6a6;
+    font-size: 12px;
+
 }
 
-.navigation-wrapper > .center-column > .text {
+.navigation-wrapper > .center-column > .text p{
     color: #f4e17f;
     font-size: 14px;
+    margin:0px 0px;
 }
 
 
 /* center */
 
-.center-page {
+.center-gradient > .center-page {
     font-family: 'Lato', sans-serif;
     color: #a6a6a6;
 }
 
-.center-page > .left-column > .text {
+.center-gradient > .center-page > .left-column > .text {
     margin: 0px 0px 0px 40px;
 }
 
-.center-page > .left-column> .text > .headline > h1 {
+.center-gradient > .center-page > .left-column> .text > .headline > h1 {
     font-weight: 90;
     font-size: 30px;
     margin: 0px 0px;
 }
 
-.center-page > .left-column> .text > .headline >h1 >strong {
+.center-gradient > .center-page > .left-column> .text > .headline >h1 >strong {
     color: white;
 }
 
-.center-page > .left-column> .text > .under-headline-text {
+.center-gradient > .center-page > .left-column> .text > .under-headline-text {
     font-size: 25px;
     color: #a6a6a6;
 }
 
-.right-column > .text-projects > p {
+.center-gradient > .right-column > .text-projects > p {
     color: white;
     font-size: 12px;
 }

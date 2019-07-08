@@ -9,9 +9,8 @@
     background-color: black;
     /* flexbox container */
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 1px 0px 20px 20px;
     margin: 0px 0px -20px 0px;
     
 }
@@ -21,28 +20,36 @@
     display: flex;
     align-items: center;
     margin: none;
+    padding-top: 10px;
 }
 
     /* image */
     .navigation-wrapper > .left-column > .codepen-logo img {
        width: 135px;
        height: 25px; 
+       padding-right: 40px;
     }
 
     /*center-column */
 .navigation-wrapper > .center-column {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 0px;
+    width: 100%;
+    min-width: 346.781px;
+    margin: 0px;
+    align-items: top;
+}
+
+.navigation-wrapper > .center-column > .text p{
+    display: grid;
+    justify-content:left;
     grid-gap: 10px;
-    width: 325px;
     margin: 0px;
 }
 
-.navigation-wrapper > .center-column > .text {
-    display: grid;
+.navigation-wrapper > .center-column > .links-wrapper {
     justify-content: left;
-    grid-gap: 10px;
-    margin: 0px;
 }
 
 .links-wrapper {
@@ -51,29 +58,49 @@
     align-items: center;
 }
 
-/* right-column buttons */
-.navigation-wrapper > .right-column > .btn-wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+    text-decoration: none;
+    padding: 0px 13px 0px 0px;
+} 
 
+.navigation-wrapper > .center-column > .links-wrapper > .spark-link > .nav-link > .icon a {
+    text-decoration: none;
+    padding-left: 10px;
+} 
+
+/* right-column buttons */
+
+.navigation-wrapper > .right-column > .btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 341.219px;
 }
+
 
 .navigation-wrapper > .right-column > .btn-wrapper > .btn {
     color: white;
     background-color: #36383f;
     border: 3px;
-    padding: 10px 8px;
-    margin: 0px 4px 0px 0px;
+    padding: 15px 20px;
+    margin: 0px 10px 0px 0px;
+    font-size: 13px;
 }
 
 
     /* icons */
 
-    .navigation-wrapper > .right-column > .btn-wrapper > .btn > .icon {
+    .navigation-wrapper > .right-column > .btn-wrapper > .btn > i {
         color: #47cf73;
     }
 
     .navigation-wrapper > .right-column > .btn-wrapper > .icon {
         color: #7B7E8C;
+        margin: 0px 15px 0px 5px;
+        font-size: 24px;
+    }
+
+    .navigation-wrapper > .center-column > .links-wrapper > .spark-link > .nav-link > .icon i{
+        color: #a6a6a6;
+        font-size: 12px;
     }

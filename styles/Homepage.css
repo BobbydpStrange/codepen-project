@@ -2,13 +2,13 @@
 body { 
     background-color: #191A1d;
     margin: 0px;
-    
+    box-sizing: border-box;
 }
 
 
 
 /* Buttons */
-.center-page > .left-column > .center-btns > .green-btn {
+.center-gradient > .center-page > .left-column > .center-btns > .green-btn {
     padding: 12px 15px;
     font-size: 22px;
     color: black;
@@ -17,7 +17,7 @@ body {
     margin: 0px 10px 0px 0px;
 }
 
-.center-page> .left-column > .center-btns > .black-btn {
+.center-gradient > .center-page> .left-column > .center-btns > .black-btn {
     padding: 12px 15px;
     font-size: 22px;
     color: white;
@@ -27,31 +27,35 @@ body {
 }
 
 /*Center-page*/
+.center-gradient {
+    display:grid;
+    width: 1fr;
+    align-content: center;
+}
 
-.center-page > .left-column> .text > .center-btns {
+.center-gradient {
+    display: flex;
+    align-content: center;
+    
+}
+
+.center-gradient > .center-page {
+    justify-content: left;
+    width: 100%;
+    min-width: 366.781px;
+}
+
+.center-gradient > .right-column {
+    justify-content: right;
+    width: 587.672px;
+}
+
+.center-gradient > .center-page > .left-column> .text > .center-btns {
     margin: 0px 0px 0px 40px;
 }
  
 
-/* testing to put center items next to eachother */
-center-page {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-center-page > right-column
-center-page {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 42px;
-    width: 500px;
-}
-
-.center-page > right-column
-
-
-.center-page {
+.center-gradient {
     height: 377px;
     width:100%;
     background-image: -webkit-radial-gradient(left top, ellipse farthest-side, #36383f 30%, #000000 140%);
@@ -61,7 +65,7 @@ center-page {
 
 
     /* image-right */
-.right-column > .image-right > .image img {
+.center-gradient > .right-column > .image-right > .image img {
     height: 500px;
     width: auto;
     margin: none;
