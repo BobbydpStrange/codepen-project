@@ -32,10 +32,12 @@
 .center-gradient > .center-page {
     font-family: 'Lato', sans-serif;
     color: #a6a6a6;
+    
 }
 
 .center-gradient > .center-page > .left-column > .text {
     margin: 0px 0px 0px 40px;
+    box-sizing: border-box;
 }
 
 .center-gradient > .center-page > .left-column> .text > .headline > h1 {
@@ -49,7 +51,7 @@
 }
 
 .center-gradient > .center-page > .left-column> .text > .under-headline-text {
-    font-size: 25px;
+    font-size: 24px;
     color: #a6a6a6;
 }
 
