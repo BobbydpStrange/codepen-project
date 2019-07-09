@@ -113,3 +113,9 @@ body {
     justify-content: center;
 }
 
+/* block */
+.block {
+    height:auto;
+    width: 100%;
+    background-color: #191A1d;
+}
