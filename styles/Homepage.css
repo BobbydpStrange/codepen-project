@@ -48,8 +48,11 @@ body {
 .center-gradient > .right-column {
     justify-content: left;
     width: 887.672px;
+    height: 100%;
     margin: none;
     padding: none;
+    align-self:  flex-end;
+    box-sizing: border-box;
 }
 
 .center-gradient > .center-page > .left-column> .text > .center-btns {
@@ -58,10 +61,8 @@ body {
  
 
 .center-gradient {
-    height: 377px;
-    width:100%;
     background-image: -webkit-radial-gradient(left top, ellipse farthest-side, #36383f 30%, #000000 140%);
-
+    box-sizing: border-box;
 }
 
 
@@ -69,10 +70,11 @@ body {
     /* image-right */
 .center-gradient > .right-column > .image-right > .image img {
     height: auto;
-    width: 650px;
-    min-width: 100%;
+    min-width: 302.453px;
+    max-width: 100%;
     margin: none;
     padding: none;
+    box-sizing: border-box;
 }
 
     /* box */
@@ -82,26 +84,35 @@ body {
 /* codepenfor */
 
 .codepenfor {
-    height: 65px;
-    background-color: white;
-    margin: 0px 0px;
-    padding: none;
-}
-
-.codepenfor > p {
 margin: none;
 padding: none;
+display: grid;
+width: 100%;
+height:202.250;
+padding: 7.500px 15px;
 }
 
-.codepenfor > .codepenforbtns > .btn {
-    height: 27px;
-    width: 165px;
+.codepenfor > .codepenforbns {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.codepenfor > .codepenforbns {
+    background-color: #36383f;
+    
+}
+
+.codepenfor > .codepenforbtns > .btn-link {
+    height: 37px;
+    min-width: 103.750px;
     font-size: 15px;
     margin: none;
     color: white;
     background-color: #36383f;
-    padding: 6.500px 13px;
-    border: 1px;
-    border-color: #676767;
+    text-align: center;
+    padding: 7.5px 15px;
+    border: 1px solid #676767;
+    justify-content: center;
 }
 
